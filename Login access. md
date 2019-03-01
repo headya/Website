@@ -1,0 +1,37 @@
+# Login Access
+
+**Alicea Heady**
+
+
+> ![image title/alternative text](lockd-in-.jpg)
+> The LOGIn &copy; Alicea Heady
+ [link text](https://chad-bennett.github.io/web-research/).
+
+#What's A Login?
+Its computer security to protect your info to access the account.
+Used by websites and computer/ mobile apps (applications)
+If you forgot your login the site or company would use an alternative to notify you that you account had been locked or the option to reset your password with email, text
+Requires username and password
+Allows backup passwords if other forms a unsuccessful
+
+
+##Existing Forms?
+There's a variety of existing forms of logins. The most typical form of logins uses only letters and numbers to certain length for security reasons. Nowadays technology has multiple was to lock the device and account through **Face Recognition**. This was the devices use high technology to recognize faces and specific features to identify the user. Another form is **Fingerprint Recognition** which is very similar to face recognition because the device scan your finger to give the valid user access. A fast majority of software developers use a numerical password or code as a backup just in case the high tech logins aren't working properly.
+
+###How to Prevent Hacking?
+
+It’s extremely important to have different login information and to change your login frequently, if not hackers can easily have access to all your information. The longer and inconsistent your login is make its more complex for your account to be hacked. Hackers uses social engineering tricks to gain access to your accounts. Some hackers will go as far a impersonating a site and sending a fake email to get information.      
+
+
+
+
+---
+
+## resources
+
+this is where you list your sources and links:
+
+- 10 Advantages and disadvantages of social logins[this is the link text](https://www.humix.be/blog/10-advantages-disadvantages-social-logins/)
+- Adding ASP.NET Identity to an Empty or Existing Web Forms Project
+[this is the article title](https://docs.microsoft.com/en-us/aspnet/identity/overview/getting-started/adding-aspnet-identity-to-an-empty-or-existing-web-forms-project)
+- Login limitations[https://www.booksandpublishing.com.au/login-limitations/)
