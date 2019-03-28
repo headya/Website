@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>css animation</title>
+</head>
+
+<style>
+  /* The element to apply the animation to */
+  #boxter {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: #FFBAC1;
+    border-radius: 60%;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iterantion-count:
+      infinite;
+    animation-direction: alternate;
+  }
+
+    @keyframes example {
+      0% {
+        background-color: #FF919C;
+      }
+
+      25% {
+        background-color: #FF6978;
+      }
+
+      50% {
+        background-color: #BA4D58;
+      }
+
+      100% {
+        background-color: #5D272C;
+      }
+    }
+
+    /* The element to apply the animation to */
+    #locker {
+      width: 100px;
+      height: 100px;
+      margin: 50px;
+      background-color: #BCF3FF;
+      border-radius: 35%;
+      animation-name: slow;
+      animation-duration: 3s;
+      animation-iterantion-count:
+      infinite;
+      animation-direction: alternate;
+}
+
+      @keyframes slow {
+        0% {
+          background-color: #79E7FF;
+        }
+
+        25% {
+          background-color: #20D7FF;
+        }
+
+        50% {
+          background-color: #09ADD1;
+        }
+
+        100% {
+          background-color: #056074;
+        }
+      }
+
+      #block {
+        width: 100px;
+        height: 100px;
+        margin: 50px;
+        border-radius: 2%;
+        background-color: #360924;
+        animation-name: fast;
+        animation-duration: 3s;
+        animation-iterantion-count: infinite;
+        animation-direction: alternate;
+}
+
+        @keyframes fast {
+          0% {
+            background-color: #5A0F3C;
+          }
+
+          25% {
+            background-color: #901961;
+          }
+
+          50% {
+            background-color: #B41E78;
+          }
+
+          100% {
+            background-color: #DF85BB;
+          }
+        }
+
+        #dumb {
+          width: 100px;
+          height: 100px;
+          margin: 50px;
+          border-radius: 18%;
+          background-color: #056074;
+          animation-name: smart;
+          animation-duration: 3s;
+          animation-iterantion-count: infinite;
+          animation-direction: alternate;
+  }
+
+          @keyframes smart{
+            0% {
+              background-color: #DF85BB;
+            }
+
+            25% {
+              background-color: #A7FFF6;
+            }
+
+            50% {
+              background-color: #5D272C;
+              transform: scale(2);
+            }
+
+            100% {
+              background-color: #82FF9E;
+            }
+          }
+
+
+</style>
+
+<body>
+  <div id="boxter"></div>
+  <div id="locker"></div>
+  <div id="block"></div>
+  <div id="dumb"></div>
+
+
+</body>
+
+</html>

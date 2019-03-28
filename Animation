@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>alicea's gifs and animations</title>
+</head>
+
+<body>
+<h1>Alicea's GIFs and Animations</h1>
+<img src="AH.gif" alt="Gif One">
+<img src="ball.gif" alt="Gif Two">
+<img src="be.gif" alt="Gif Three">
+</body>
+</html>
