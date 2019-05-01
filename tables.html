@@ -4,9 +4,45 @@
 <head>
   <meta charset="utf-8">
   <title>tables and tings </title>
+  <style media="screen">
+    table {
+      background-color: lightblue;
+      border: 15px solid orange;
+      width:80%
+      margin: 0 auto;
+      text-align: center
+      border-collapse:collapse;
+    }
+
+    thead{
+      background: red;
+      color:white;
+    }
+    th,
+    td {
+      border:14px solid purple;
+    padding: 10px;
+    }
+
+    tr:nth-child(even){
+      background:pink
+    }
+
+    td:hover{
+      background: blue;
+      color: orange;
+      transform:scale(1.2);
+      transition: transform .3s;
+    }
+
+    h1{
+      text-align:center;
+    }
+  </style>
 </head>
 
 <body>
+  <h1>Alicea's Data</h1>
 
   <table>
     <thead>
@@ -44,10 +80,10 @@
       </tr>
 
       <tr>
-      <td>Juila</td>
-      <td>candy</td>
-      <td>6/28</td>
-      <td>12</td>
+        <td>Juila</td>
+        <td>candy</td>
+        <td>6/28</td>
+        <td>12</td>
 
       <tr>
         <td>Abby</td>
