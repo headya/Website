@@ -1,0 +1,32 @@
+body {
+  background: #FF6B6C  ;
+}
+
+h1 {
+  color: #ACF39D;
+}
+
+article h2 {
+  text-decoration: none;
+  display: block;
+  width: 180px;
+  height: 86px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  border: 52px;
+  color: #ACF39D;
+}
+
+h2{
+  color: #ACF39D;
+}
+
+h3 {
+  color: #ACF39D;
+}
+
+h4{
+  color: #ACF39D;
+}
